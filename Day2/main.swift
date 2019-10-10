@@ -28,7 +28,7 @@ for i in 0..<strEx.count {
     let loc = strEx.suffix(strEx.count - i)
     let next = loc.prefix(0)
 
-    print(loc + " nj " + next + " nj " +  + strEx)
+    print(loc + " nj " + next + " nj " + strEx)
     if(next == prev){
         count += 1
     }else{
